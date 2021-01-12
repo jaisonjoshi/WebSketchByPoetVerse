@@ -1,0 +1,28 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+}
+
+.logo{
+    filter: invert(1);
+    height: 50px;
+
+}
+h3,h5{
+    font-weight: 300;
+}
+.footer-social{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.footer-link{
+    margin: 0 10px;
+    font-size: 140%;
+}
+hr{
+    border-top-color:gray !important;
+}
