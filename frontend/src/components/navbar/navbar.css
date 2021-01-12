@@ -1,0 +1,9 @@
+Navbar{
+    background-color: transparent;
+   
+}
+.logo{
+    filter: invert(1);
+    height: 50px;
+
+}
