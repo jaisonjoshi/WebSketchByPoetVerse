@@ -26,9 +26,9 @@
 .img {
   text-align: center;
 }
-.bg-none {
+.bg-blank {
   background-color: #121212;
 }
 .ml-fix {
-  margin-left: 12rem;
+  transform: translate(9rem, 0px);
 }

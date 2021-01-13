@@ -66,7 +66,7 @@ const Client = (props) => {
       activeIndex={activeIndex}
       next={next}
       previous={previous}
-      className='bg-none'
+      className='bg-blank w-75 '
     >
       <CarouselIndicators
         items={items}

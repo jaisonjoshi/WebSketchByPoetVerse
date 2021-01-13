@@ -18,7 +18,7 @@ function Home() {
         </Jumbotron>
         <AboutSection />
         <Services />
-        <div>
+        <div className='bg-blank justify-content-center d-flex'>
           <Client />
         </div>
       </div>
