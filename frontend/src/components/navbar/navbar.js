@@ -55,6 +55,13 @@ function NavbarTop() {
                 </Link>
               </NavLink>
             </NavItem>
+            <NavItem className='mr-2'>
+              <NavLink>
+                <Link to='/career' className='text-white'>
+                  Careers
+                </Link>
+              </NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>

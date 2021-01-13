@@ -4,7 +4,6 @@ import "./Home.css";
 import logo from "./Logo.png";
 import AboutSection from "../About/aboutSection";
 import Services from "../Services/Services";
-import Footer from "../Footer/Footer";
 import Client from "../testimonials/Client";
 function Home() {
   return (
@@ -22,7 +21,6 @@ function Home() {
         <div>
           <Client />
         </div>
-        <Footer />
       </div>
     </>
   );
