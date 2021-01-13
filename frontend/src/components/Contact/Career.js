@@ -48,7 +48,7 @@ export default function Career() {
                   model='.firstname'
                   show='touched'
                   messages={{
-                    required: "Required",
+                    required: "",
                     minLength: " Must be greater than 2 characters",
                     maxLength: " Must be 15 characters or less",
                   }}
@@ -78,7 +78,7 @@ export default function Career() {
                   model='.telnum'
                   show='touched'
                   messages={{
-                    required: "Required",
+                    required: "",
                     minLength: " Must be greater than 2 numbers",
                     maxLength: " Must be 15 numbers or less",
                     isNumber: " Must be a number",
@@ -109,11 +109,11 @@ export default function Career() {
                   }}
                 />
                 <Errors
-                  className='text-danger'
+                  className='text-danger ml-2 text-left'
                   model='.email'
                   show='touched'
                   messages={{
-                    required: "Required",
+                    required: "",
                     validEmail: " Invalid Email Address",
                   }}
                 />
