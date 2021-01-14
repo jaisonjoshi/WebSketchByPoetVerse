@@ -8,7 +8,11 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.5.3",
+<<<<<<< HEAD
     "node-sass": "^5.0.0",
+=======
+    "font-awesome": "^4.7.0",
+>>>>>>> 959a5918467da709d669b5524c4743d9794577dc
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
