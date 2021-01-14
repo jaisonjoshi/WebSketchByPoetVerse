@@ -32,6 +32,9 @@
 .ml-fix {
   transform: translate(9rem, 0px);
 }
+.form-control{
+    background-color: #121212;
+}
 
 header {
   color: #ffffff;

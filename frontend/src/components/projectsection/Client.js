@@ -4,23 +4,24 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
+  
+  Card, CardImg, CardText, CardBody,
+  CardTitle
 } from "reactstrap";
+import software from './software.jpg';
 const img =
   "https://cutewallpaper.org/21/dark-gradient-backgrounds/Black-Gradient-Wallpaper-77-images.jpg";
 const items = [
   {
-    altText: "Slide 1",
-    caption: "Slide 1",
+    title: "project 1",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum hasbeen the industry's standard dummy text ever since the 1500s, when an unknown printer tooka galley of type and scrambled it to make a type specimen book.",
   },
   {
-    altText: "Slide 2",
-    caption: "Slide 2",
-  },
-  {
-    altText: "Slide 3",
-    caption: "Slide 3",
-  },
+    title: "project 1",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum hasbeen the industry's standard dummy text ever since the 1500s, when an unknown printer tooka galley of type and scrambled it to make a type specimen book.",
+  
+  }
+ 
 ];
 
 const Client = (props) => {
@@ -52,11 +53,15 @@ const Client = (props) => {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={img} className='img d-block w-100' alt={item.altText} />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
+        <Card>
+        <CardImg top width="100%" src={software} alt="Card image cap" />
+        <CardBody>
+          <CardTitle tag="h5">{item.title}</CardTitle>
+         
+          <CardText>{item.text}</CardText>
+         
+        </CardBody>
+      </Card>
       </CarouselItem>
     );
   });
