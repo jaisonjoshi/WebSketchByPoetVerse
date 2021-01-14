@@ -7,3 +7,9 @@ Navbar{
     height: 50px;
 
 }
+.nav-trans{
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.nav-bg{
+    background-color: black;
+}

@@ -22,7 +22,29 @@ h3,h5{
 .footer-link{
     margin: 0 10px;
     font-size: 140%;
+    color: #6b6b6b;
+    cursor: pointer;
+}
+.footer-navlink{
+    color: #6b6b6b;
+    cursor: pointer;
+}
+.footer-link:hover,
+.footer-navlink:hover{
+    color: white;
 }
 hr{
     border-top-color:gray !important;
+    
+}
+input{
+    border-radius:5px;
+    outline: none;
+    padding: 6px !important;
+}
+@media (max-width: 764px){
+    
+    .footer-container{
+        padding: 0 5.5rem;
+    }
 }

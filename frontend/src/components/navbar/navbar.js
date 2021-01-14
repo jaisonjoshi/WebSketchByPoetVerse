@@ -25,7 +25,7 @@ function NavbarTop() {
           <NavbarBrand href="/"><img src={logo} className="logo mt-1 ml-3" alt="logo" /></NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto"  navbar>
               <NavItem className="mr-2">
                 <NavLink href="/components/">Home</NavLink>
               </NavItem>
