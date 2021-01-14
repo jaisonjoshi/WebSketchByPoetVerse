@@ -49,7 +49,6 @@ function Footer() {
               <Link to='/projects'>
                 <li className='footer-navlink'>Projects</li>
               </Link>
-              <li className='footer-navlink'>Testimonials</li>
               <Link to='/contact'>
                 <li className='footer-navlink'>Contact Us</li>
               </Link>
