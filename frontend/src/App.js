@@ -6,6 +6,7 @@ import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
 import Career from "./components/Contact/Career";
 import Contact from "./components/Contact/Contact";
+import KeyProjects from "./components/keyprojects/keyproject";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -19,9 +20,10 @@ function App() {
           <Route exact path='/services' component={Services} />
           <Route exact path='/contact' component={Contact} />
           <Route exact path='/career' component={Career} />
+          <Route exact path='/projects' component={KeyProjects} />
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }

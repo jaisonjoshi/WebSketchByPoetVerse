@@ -5,7 +5,6 @@ import logo from "./Logo.png";
 import AboutSection from "../About/aboutSection";
 import Services from "../Services/Services";
 import Client from "../testimonials/Client";
-import Keyproject from "../keyprojects/KeyProject";
 function Home() {
   return (
     <>
@@ -19,7 +18,6 @@ function Home() {
         </Jumbotron>
         <AboutSection />
         <Services />
-        <Keyproject />
         <div className='bg-blank justify-content-center d-flex'>
           <Client />
         </div>
