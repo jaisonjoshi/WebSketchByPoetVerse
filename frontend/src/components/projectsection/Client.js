@@ -48,7 +48,7 @@ const Client = (props) => {
   const slides = items.map((item) => {
     return (
       <CarouselItem
-        className='col-9 ml-fix'
+        className='col-9 ml-fix '
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.src}
@@ -70,6 +70,7 @@ const Client = (props) => {
     <Carousel
       activeIndex={activeIndex}
       next={next}
+      interval={3000}
       previous={previous}
       className='bg-blank w-75 '
     >
