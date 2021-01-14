@@ -4,24 +4,26 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  
-  Card, CardImg, CardText, CardBody,
-  CardTitle
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
 } from "reactstrap";
-import software from './software.jpg';
+import software from "./software.jpg";
 const img =
   "https://cutewallpaper.org/21/dark-gradient-backgrounds/Black-Gradient-Wallpaper-77-images.jpg";
 const items = [
   {
     title: "project 1",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum hasbeen the industry's standard dummy text ever since the 1500s, when an unknown printer tooka galley of type and scrambled it to make a type specimen book.",
+    text:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum hasbeen the industry's standard dummy text ever since the 1500s, when an unknown printer tooka galley of type and scrambled it to make a type specimen book.",
   },
   {
-    title: "project 1",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum hasbeen the industry's standard dummy text ever since the 1500s, when an unknown printer tooka galley of type and scrambled it to make a type specimen book.",
-  
-  }
- 
+    title: "project 2",
+    text:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum hasbeen the industry's standard dummy text ever since the 1500s, when an unknown printer tooka galley of type and scrambled it to make a type specimen book.",
+  },
 ];
 
 const Client = (props) => {
@@ -54,14 +56,13 @@ const Client = (props) => {
         key={item.src}
       >
         <Card>
-        <CardImg top width="100%" src={software} alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">{item.title}</CardTitle>
-         
-          <CardText>{item.text}</CardText>
-         
-        </CardBody>
-      </Card>
+          <CardImg top width='100%' src={software} alt='Card image cap' />
+          <CardBody>
+            <CardTitle tag='h5'>{item.title}</CardTitle>
+
+            <CardText>{item.text}</CardText>
+          </CardBody>
+        </Card>
       </CarouselItem>
     );
   });

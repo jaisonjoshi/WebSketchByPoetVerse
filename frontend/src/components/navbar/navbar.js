@@ -42,6 +42,13 @@ function NavbarTop() {
               </NavLink>
             </NavItem>
             <NavItem className='mr-2'>
+              <NavLink>
+                <Link to='/projects' className='text-white'>
+                  Projects
+                </Link>
+              </NavLink>
+            </NavItem>
+            <NavItem className='mr-2'>
               <NavLink className='no-border'>
                 <Link to='/services' className='text-white '>
                   Services
