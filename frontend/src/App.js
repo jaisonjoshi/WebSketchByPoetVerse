@@ -6,7 +6,7 @@ import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
 import Career from "./components/Contact/Career";
 import Contact from "./components/Contact/Contact";
-import KeyProjects from "./components/keyprojects/keyproject";
+import KeyProjects from "./components/keyprojects/KeyProject";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
